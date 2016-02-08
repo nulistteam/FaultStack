@@ -19,6 +19,6 @@
         "password":
     }
     "management": {
-        "type": manual
+        "type": metaopenstack
     }
 }
