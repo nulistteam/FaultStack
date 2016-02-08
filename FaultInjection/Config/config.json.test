@@ -1,0 +1,24 @@
+{
+    "timeout": 360,
+    "servers": [
+        {
+        "ip": ,
+        "roles": []
+        },
+        {
+        "ip": ,
+        "roles": []
+        }
+        {
+        "ip": ,
+        "roles": []
+        }
+    ],
+    "keystone": {
+        "user":
+        "password":
+    }
+    "management": {
+        "type": manual
+    }
+}
