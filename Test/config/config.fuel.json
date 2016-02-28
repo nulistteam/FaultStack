@@ -1,0 +1,16 @@
+{
+  "nodes": [
+    {
+      "username": "root",
+      "hostname": "node-46",
+      "role": "controller",
+      "test_file_dir": "",
+      "test_file": ""
+    },
+    {
+      "username": "root",
+      "hostname": "node-49",
+      "role": "compute"
+    }
+  ]
+}
