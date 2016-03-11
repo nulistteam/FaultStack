@@ -1,0 +1,8 @@
+{
+  "node": {
+    "ip": "10.20.0.5",
+    "username": "root",
+    "password": "r00tme",
+    "test_file": "fault_injection.py"
+  }
+}

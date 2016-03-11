@@ -1,0 +1,43 @@
+{
+    "servers": [
+        {
+        "ip": "10.20.0.20",
+        "username": "root",
+        "root_password": "",
+        "roles": ["controller"],
+        "test_file":"fault_injection.py",
+        "test_content": "1"
+        },
+        {
+        "ip": "10.20.0.21",
+        "username": "root",
+        "root_password": "",
+        "roles": ["controller"],
+        "test_file":"fault_injection.py",
+        "test_content": "1"
+        },
+        {
+        "ip": "10.20.0.22",
+        "username": "root",
+        "root_password": "",
+        "roles": ["controller"],
+        "test_file":"fault_injection.py",
+        "test_content": "1"
+        },
+        {
+        "ip": "10.20.0.23",
+        "username": "root",
+        "root_password": "",
+        "roles": ["compute"],
+        "test_file":"fault_injection.py",
+        "test_content": "1"
+        }
+    ],
+    "management": {
+        "type": "metaopenstack",
+        "user": "admin",
+        "password": "admin",
+        "tenant": "admin",
+        "auth_url": "http://172.16.0.20:5000/v2.0"
+    }
+}
